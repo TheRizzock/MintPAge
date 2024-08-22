@@ -486,6 +486,24 @@ p {
 /* Mobile styles */
 @media (max-width: 767px) {
 
+    .header {
+        flex-direction: row; /* Ensure logo and button are on the same line */
+        justify-content: space-between; /* Space between logo and button */
+        padding: 0 10px; /* Add padding to prevent elements from touching screen edges */
+    }
+
+    .logo {
+        position: relative;
+        top: 70px; /* Adjust this value to position the logo slightly lower */
+        margin-left: 10px; /* Light margin for natural distance */
+        margin-bottom: 40px;
+    }
+
+    .wallet-connect-btn {
+        margin-right: 10px; /* Light margin for natural distance */
+    }
+
+
     h1 {
         font-size: 50px !important;
     }
