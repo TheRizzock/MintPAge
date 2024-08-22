@@ -494,9 +494,9 @@ p {
 
     .logo {
         position: relative;
-        top: 70px; /* Adjust this value to position the logo slightly lower */
+        transform: translateY(70px); /* Use translateY to move the logo down */
         margin-left: 10px; /* Light margin for natural distance */
-        margin-bottom: 40px;
+        margin-bottom: 40px; /* Adjust the margin-bottom as needed */
     }
 
     .wallet-connect-btn {
@@ -505,7 +505,7 @@ p {
 
 
     h1 {
-        font-size: 50px !important;
+        font-size: 60px !important;
     }
 
     .title {
@@ -553,8 +553,8 @@ p {
     .image-container.left-column img,
     .image-container.right-column img {
         position: static;
-        width: 80px;
-        height: 80px;
+        width: 90px;
+        height: 90px;
         margin: 3px;
     }
 
@@ -585,8 +585,9 @@ p {
     }
 
     .countdown {
-        font-size: 30px !important;
+        font-size: 25px !important;
         text-weight: bold !important;
+        word-wrap: break-word !important;
     }
 
     .qty-input {
