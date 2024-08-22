@@ -564,6 +564,10 @@ p {
         text-weight: bold !important;
     }
 
+    .qty-input {
+        width: 140px;
+        height: 50px;
+    }
 }
 
 .overlay {
