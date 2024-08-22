@@ -482,7 +482,7 @@ p {
 @media (max-width: 767px) {
 
     h1 {
-        font-size: 80px !important;
+        font-size: 50px !important;
     }
 
     .title {
@@ -511,7 +511,7 @@ p {
     }
 
     .bar-segment::after {
-        font-size: 16px !important;
+        font-size: 12px !important;
     }
 
     .image-container.left-column,
@@ -528,9 +528,9 @@ p {
     .image-container.left-column img,
     .image-container.right-column img {
         position: static;
-        width: 100px;
-        height: 100px;
-        margin: 5px;
+        width: 80px;
+        height: 80px;
+        margin: 3px;
     }
 
     .text-container {
