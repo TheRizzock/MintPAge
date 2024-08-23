@@ -28,9 +28,9 @@ body::before {
     right: 0;
     bottom: 0;
     background-image: url('images/v1159_135.png');
-    background-size: auto;
+    background-size: 150%;
     background-position: center;
-    opacity: 0.10;
+    opacity: 0.04;
     mix-blend-mode: overlay;
     z-index: -1;
     pointer-events: none;
@@ -89,6 +89,7 @@ body::before {
     align-items: center;
     width: 100%;
     padding: 20px;
+    padding-top: 10%;
     box-sizing: border-box;
     margin-bottom: 200px;
     position: relative; /* Allow absolute positioning within */
@@ -102,7 +103,7 @@ body::before {
 .image-container img {
     border-radius: 5px;
     border: 2px solid #000;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 2px 0px rgba(0, 0, 0, 1);
 }
 
 /* Specific positioning for desktop view */
@@ -169,7 +170,7 @@ h1 {
     margin-bottom: 20px;
     position: relative;
     z-index: 2;
-    -webkit-text-stroke: 2px #000000;
+    -webkit-text-stroke: 1px #000000;
     text-shadow: 4px 4px 0 #000;
 }
 
@@ -190,16 +191,16 @@ p {
 .button-container {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 10px;
 }
 
 .btn {
     font-family: 'Dela Gothic One', cursive;
-    font-size: 18px;
-    padding: 10px 20px;
+    font-size: 16px;
+    padding: 12px 24px;
     border-radius: 5px;
     border: 2px solid #000;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 2px 0px rgba(0, 0, 0, 1);
     text-decoration: none;
     color: #171717;
     transition: all 0.3s ease;
@@ -234,7 +235,7 @@ p {
     margin-bottom: 20px;
     position: relative;
     z-index: 2;
-    -webkit-text-stroke: 2px #000000;
+    -webkit-text-stroke: 1px #000000;
     text-shadow: 2px 2px 0 #000;
 }
 
@@ -490,13 +491,20 @@ p {
         flex-direction: row; /* Ensure logo and button are on the same line */
         justify-content: space-between; /* Space between logo and button */
         padding: 0 10px; /* Add padding to prevent elements from touching screen edges */
+        margin-bottom: 40px;
     }
 
     .logo {
-        position: relative;
-        transform: translateY(70px); /* Use translateY to move the logo down */
-        margin-left: 10px; /* Light margin for natural distance */
-        margin-bottom: 40px; /* Adjust the margin-bottom as needed */
+        position: absolute;
+        /*transform: translateY(100px); !* Use translateY to move the logo down *!*/
+        /*margin-left: 10px; !* Light margin for natural distance *!*/
+        /*margin-bottom: 40px; !* Adjust the margin-bottom as needed *!*/
+        /*transform: translateX(50%);*/
+        transform: translateX(-50%);
+        top:40px;
+        /*display: flex;*/
+        /*flex-direction: column;*/
+        /*justify-content: center;*/
     }
 
     .wallet-connect-btn {
@@ -513,11 +521,11 @@ p {
     }
 
     .btn {
-        font-size: 12px !important;
+        font-size: 11px !important;
     }
 
     .button-container {
-        gap: 5px !important;
+        gap: 2px;
     }
 
     .mint-now {
@@ -535,8 +543,14 @@ p {
         padding-right: 10px;
     }
 
+    .bar {
+        height: 40px;
+    }
+
     .bar-segment::after {
         font-size: 12px !important;
+        position: absolute;
+        top:-20px;
     }
 
     .image-container.left-column,
@@ -582,6 +596,18 @@ p {
 
     p {
         font-size: 16px;
+    }
+
+    .document-section p {
+        font-size: 14px !important;
+    }
+
+    .document-section li {
+        font-size: 14px !important;
+    }
+
+    .label {
+        font-size: 13px !important;
     }
 
     .countdown {
