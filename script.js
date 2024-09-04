@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 document.addEventListener('DOMContentLoaded', function() {
-    const targetDate = new Date('2024-09-17T17:00:00Z'); // Set your target date here
+    const targetDate = new Date('2024-09-19T17:00:00Z'); // Set your target date here
     const overlay = document.querySelector('.overlay');
     const countdownElement = document.querySelector('.countdown');
     const mintButton = document.querySelector('.mint-action');
