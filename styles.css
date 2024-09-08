@@ -163,6 +163,7 @@ body::before {
 
 h1 {
     font-family: 'Dela Gothic One', cursive;
+    letter-spacing: .3rem;
     margin: 0;
     font-size: 120px;
     color: #E7E7E7;
