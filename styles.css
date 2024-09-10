@@ -57,6 +57,11 @@ body::before {
     transform: translateX(-50%); /* Center the logo horizontally */
 }
 
+.list {
+    margin-left: 0;
+    margin-top: 0;
+}
+
 .wallet-connect-btn {
     position: absolute;
     right: 0;
@@ -187,7 +192,8 @@ p {
     font-family: 'Inconsolata', monospace;
     font-size: 18px;
     color: #171717;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .button-container {
@@ -393,7 +399,7 @@ p {
 }
 
 .document-section ul {
-    margin-left: 20px;
+    margin-left: 5px;
     list-style-type: disc;
     text-align: left;
 }
