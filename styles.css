@@ -526,6 +526,11 @@ td:not(:first-child), th:not(:first-child) {
         margin-top: 20px !important;
     }
 
+    table {
+        font-size: 18px !important;
+        width: 100% !important;
+    }
+
     .header {
         flex-direction: row; /* Ensure logo and button are on the same line */
         justify-content: space-between; /* Space between logo and button */
