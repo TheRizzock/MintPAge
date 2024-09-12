@@ -27,7 +27,7 @@ body::before {
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: url('images/v1159_135.png');
+    background-image: url('images/v1159_135.webp');
     background-size: 150%;
     background-position: center;
     opacity: 0.04;
@@ -314,7 +314,7 @@ p {
     border: 2px solid #000000;
     border-radius: 20px;
     box-sizing: border-box;
-    background-image: url('images/v1159_135.png');
+    background-image: url('images/v1159_135.webp');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
