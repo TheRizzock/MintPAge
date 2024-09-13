@@ -6,6 +6,38 @@ html, body {
     overflow-x: hidden;
 }
 
+.secret-button {
+    font-family: 'Inconsolata', monospace;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgba(0,0,0,.2);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    position: relative;
+}
+
+.secret-code {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-top: 5px;
+    white-space: nowrap;
+}
+
+.secret-button:hover .secret-code {
+    display: block;
+}
+
 
 body {
     background-color: #fabc30;
