@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const minutes = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
             const seconds = Math.floor((timeDifference % (1000 * 60)) / 1000);
 
-            countdownElement.textContent = `SOLD OUT`;
+            countdownElement.textContent = `FULLY MINTED!`;
         }
     }
 
