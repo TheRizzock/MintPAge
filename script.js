@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 document.addEventListener('DOMContentLoaded', function() {
-    const targetDate = new Date('2024-09-21T17:00:00Z'); // Set your target date here
+    const targetDate = new Date('2222-09-21T17:00:00Z'); // Set your target date here
     const overlay = document.querySelector('.overlay');
     const countdownElement = document.querySelector('.countdown');
     const mintButton = document.querySelector('.mint-action');
@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const minutes = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
             const seconds = Math.floor((timeDifference % (1000 * 60)) / 1000);
 
-            countdownElement.textContent = `${days}D : ${hours}H : ${minutes}M : ${seconds}S`;
+            countdownElement.textContent = `SOLD OUT`;
         }
     }
 
