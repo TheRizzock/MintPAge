@@ -238,12 +238,15 @@ p {
     font-family: 'Dela Gothic One', cursive;
     font-size: 16px;
     padding: 12px 24px;
-    border-radius: 5px;
+    border-radius: 10px;
     border: 2px solid #000;
     box-shadow: 2px 2px 0px rgba(0, 0, 0, 1);
     text-decoration: none;
     color: #171717;
     transition: all 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .logo-btn {
@@ -257,6 +260,8 @@ p {
 
 .logo-img {
     width: 150px;
+    vertical-align: center;
+    height: auto;
 }
 
 .mint-now {
