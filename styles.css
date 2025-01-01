@@ -246,6 +246,19 @@ p {
     transition: all 0.3s ease;
 }
 
+.logo-btn {
+    background-color: #E7E7E7;
+    color: #000;
+    width: 200px;
+    text-align: center;
+    padding: 0;
+
+}
+
+.logo-img {
+    width: 150px;
+}
+
 .mint-now {
     background-color: #E7E7E7;
     color: #000;
