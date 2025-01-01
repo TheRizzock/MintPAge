@@ -618,8 +618,14 @@ td:not(:first-child), th:not(:first-child) {
         font-size: 11px !important;
     }
 
+    .logo-btn {
+        width: 150px;
+        margin: 10px 5px 10px 5px;
+    }
+
     .button-container {
         gap: 2px;
+        /*flex-wrap: wrap;*/
     }
 
     .mint-now {
